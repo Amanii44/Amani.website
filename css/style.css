@@ -505,3 +505,42 @@
     height: 300px;
    }
  }
+
+
+/* جميع الاستايلات السابقة كما أرسلتها محفوظة */
+
+/* تحسين مظهر صناديق البورتفوليو */
+#portfolio .services-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio .services-box:hover {
+  transform: translateY(-8px);
+  background-color: #f9f9f9;
+}
+
+/* تحسين شكل الأيقونات */
+#portfolio .services-box i {
+  font-size: 48px;
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+
+/* تحسين زر تحميل البورتفوليو */
+#portfolio .btn {
+  margin-top: 30px;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+#portfolio .btn:hover {
+  background-color: var(--hover);
+}
+

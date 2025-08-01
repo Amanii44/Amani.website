@@ -504,4 +504,53 @@
   #myPDF{
     height: 300px;
    }
+  /* تحسين مظهر صناديق البورتفوليو */
+.services-content .services-box {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.services-content .services-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.services-box i {
+  font-size: 50px;
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.services-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.services-box p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* تحسين زر تحميل البورتفوليو */
+#portfolio .btn {
+  display: inline-block;
+  background-color: #007acc;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#portfolio .btn:hover {
+  background-color: #005f99;
+}
+
  }
